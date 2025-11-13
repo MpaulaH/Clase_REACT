@@ -4,7 +4,7 @@ export default function Contact() {
       <h2>Desarrollador Front-End — TechCorp (2023)</h2>
       <p>Diseño de interfaces con React y Tailwind.</p>
 
-      <h2>Practicante Web — SoftDev (2022)</h2>
+      <h2>Practicante Web — SoftDevelopment (2022)</h2>
       <p>Mantenimiento de sitios web HTML y CSS.</p>
 
       <h2>Freelancer - Proyectos personales (2024)</h2>
