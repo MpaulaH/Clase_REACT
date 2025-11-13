@@ -13,6 +13,7 @@ export default function About() {
           <li>Aprendizaje continuo</li>
           <li>Comunicación efectiva</li>
           <li>Resolución de problemas</li>
+          <li>Adecuado uso de herramientas de software</li>
         </ul>
     </section>
 );
