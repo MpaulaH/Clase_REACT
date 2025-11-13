@@ -5,7 +5,7 @@ export default function Skills() {
       <p>Formación enfocada en el desarrollo de aplicaciones web y móviles, bases de datos y metodologías ágiles para la gestión de proyectos de software.</p>
 
       <h2>Bachiller Tecnico en Ciencias Economicas y Contables - Institución educativa El Rosario de Bello (2021)</h2>
-      <p>Finalicé mis estudios de educación media con énfasis en ciencias economicas y contables, desarrollando habilidades en trabajo en equipo y economia.</p>
+      <p>Finalicé mis estudios de educación media con énfasis en ciencias economicas y contables, desarrollando habilidades de trabajo en equipo y economia.</p>
 
       <h2>Curso de Inglés Nivel 1 — SENA (2025)</h2>
       <p>Introducción al idioma inglés con enfoque en vocabulario básico, estructuras gramaticales y comunicación oral sencilla.
