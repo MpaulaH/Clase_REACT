@@ -1,6 +1,7 @@
 export default function Header() {
   return (
     <header>
+      <img src="public/imagenes/fotoHV.png" alt="" className="fotoHV" />
       <h1>Maria Paula Herrera Rivas</h1>
       <p>Desarrolladora de software</p>
 
