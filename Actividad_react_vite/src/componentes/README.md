@@ -1,6 +1,7 @@
 # 💼 Proyecto: Hoja de Vida con React (EV05)
 
-Este proyecto hace parte de la **Evidencia EV05 - Construcción de un CV modular en React**, del programa **Tecnólogo en Análisis y Desarrollo de Software (SENA)**.
+Este proyecto corresponde a las evidencias **EV05 y EV06** del programa Tecnólogo en Análisis y Desarrollo de Software (SENA).  
+Incluye la creación de una *Hoja de Vida en React*, usando componentes y renderizado dinámico.
 
 El objetivo es crear una **Hoja de Vida digital interactiva** compuesta por varios **componentes funcionales en React**, aplicando buenas prácticas de modularidad y diseño.
 
@@ -9,7 +10,7 @@ El objetivo es crear una **Hoja de Vida digital interactiva** compuesta por vari
 ## 👩‍💻 Autora
 
 **María Paula Herrera Rivas**  
-📧 *[tu_correo@ejemplo.com]*  
+📧 *[mariapaulaherrerarivas@gmail.com]*  
 📍 Colombia  
 🗓️ *Noviembre de 2025*
 
@@ -28,18 +29,42 @@ El proyecto fue desarrollado con **React + Vite** y cuenta con los siguientes co
 | `App.jsx` | Componente principal que integra todos los anteriores. |
 
 ---
+#### 📌 EV06 — Componentes Dinámicos en React
 
-#### 🖼️ Captura de pantalla del resultado
+En esta actividad se agregaron componentes dinámicos que utilizan:
+
+- Renderizado de listas con `.map()`
+- Renderizado condicional
+- Arreglos de objetos para manejar datos
+- Estilos condicionales según el contenido
+
+Los componentes agregados fueron:
+
+### 🔹 `Experiencia.jsx`
+- Contiene un arreglo con **10 experiencias laborales/proyectos**
+- Cada ítem incluye: cargo, empresa, año y descripción
+- Renderizado dinámico mediante `.map()`
+
+### 🔹 `Educacion.jsx`
+- Arreglo con **10 cursos, talleres o estudios**
+- Se renderizan usando listas `<ul>` y `.map()`
+
+### 🔹 `StackTecnologias.jsx`
+- Renderiza un “stack” de tecnologías aprendidas
+- Cada tecnología cambia de color según su nombre  
+  (Ej: React → azul, JavaScript → amarillo)
+
+
+##### 🖼️ Captura de pantalla del resultado
 
 > Vista previa del CV ejecutándose en el navegador:
-![alt text](1HV.png)
-![alt text](2.HV.png)
-![alt text](3.HV.png)
-![alt text](4.HV.png)
+![alt text](/Actividad_react_vite/src/componentes/imagenes/5.HV.png)
+![alt text](/Actividad_react_vite/src/componentes/imagenes/6.HV.png)
+![alt text](/Actividad_react_vite/src/componentes/imagenes/7.HV.png)
 
 ---
 
-##### ⚙️ Instrucciones para ejecutar el proyecto
+###### ⚙️ Instrucciones para ejecutar el proyecto
 
 Para ejecutar correctamente la aplicación de la hoja de vida, sigue estos pasos desde tu terminal:
 # 🔹 1. Clonar el repositorio
