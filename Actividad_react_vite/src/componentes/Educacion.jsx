@@ -1,18 +1,70 @@
-export default function Skills() {
+export default function Educacion() {
+
+  const formacion = [
+    {
+      institucion: "SENA",
+      curso: "Tecnólogo en Análisis y Desarrollo de Software (ADSO)",
+      año: 2025
+    },
+    {
+      institucion: "Platzi",
+      curso: "Curso Básico de JavaScript",
+      año: 2024
+    },
+    {
+      institucion: "Udemy",
+      curso: "React desde Cero a Avanzado",
+      año: 2024
+    },
+    {
+      institucion: "Google Activate",
+      curso: "Desarrollo Web",
+      año: 2023
+    },
+    {
+      institucion: "Coursera",
+      curso: "Programación con Python",
+      año: 2023
+    },
+    {
+      institucion: "FreeCodeCamp",
+      curso: "Responsive Web Design",
+      año: 2023
+    },
+    {
+      institucion: "Platzi",
+      curso: "Curso de Git y GitHub",
+      año: 2024
+    },
+    {
+      institucion: "EdTeam",
+      curso: "Fundamentos de Bases de Datos",
+      año: 2022
+    },
+    {
+      institucion: "Alura",
+      curso: "Lógica de Programación",
+      año: 2022
+    },
+    {
+      institucion: "Autoestudio / YouTube",
+      curso: "Introducción a Node.js",
+      año: 2024
+    }
+  ];
+
   return (
     <section>
-      <h2>Tecnología en Análisis y Desarrollo de Software — SENA (2025 - 2027)</h2>
-      <p>Formación enfocada en el desarrollo de aplicaciones web y móviles, bases de datos y metodologías ágiles para la gestión de proyectos de software.</p>
+      <h2>Formación Académica</h2>
 
-      <h2>Bachiller Tecnico en Ciencias Economicas y Contables - Institución educativa El Rosario de Bello (2021)</h2>
-      <p>Finalicé mis estudios de educación media con énfasis en ciencias economicas y contables, desarrollando habilidades de trabajo en equipo y economia.</p>
+      <ul>
+        {formacion.map((item, index) => (
+          <li key={index}>
+            <strong>{item.institucion}</strong> — {item.curso} ({item.año})
+          </li>
+        ))}
+      </ul>
 
-      <h2>Curso de Inglés Nivel 1 — SENA (2025)</h2>
-      <p>Introducción al idioma inglés con enfoque en vocabulario básico, estructuras gramaticales y comunicación oral sencilla.
-      </p>
-
-      <h2>Curso de Inglés Nivel 2 — SENA (2025)</h2>
-      <p>Continuación del aprendizaje del idioma, con énfasis en comprensión auditiva, lectura y conversación a nivel intermedio básico.</p>
     </section>
-);
+  );
 }
