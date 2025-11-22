@@ -3,7 +3,7 @@ export default function About() {
     <section>
       <h2>Perfil Profesional</h2>
       <p>
-        Soy un desarrollador web apasionado por la creación de interfaces modernas y funcionales,
+        Soy una desarrolladora web apasionada por la creación de interfaces modernas y funcionales,
         con habilidades en React, JavaScript y diseño responsive.
       </p>
 
