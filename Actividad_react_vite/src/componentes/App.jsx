@@ -12,7 +12,7 @@ export default function App() {
     nombre: "María Paula Herrera Rivas",
     cargo: "Desarrolladora Front-End",
     ciudad: "Medellín, Colombia",
-    contacto: "maria.paula@example.com"
+    contacto: "mariapaulaherrerarivas@gmail.com"
   };
 
   // Resumen profesional

@@ -1,17 +1,13 @@
-export default function Header() {
+export default function Header({ nombre, cargo, ciudad, contacto }) {
   return (
     <header>
       <img src="public/imagenes/fotoHV.png" alt="" className="fotoHV" />
-      <h1>Maria Paula Herrera Rivas</h1>
-      <p>Desarrolladora de software</p>
-
-      <h2>Contacto</h2>
-        <ul>
-          <li>mariapaulaherrerarivas@gmail.com</li>
-          <li>3170485914</li>
-          <li>C.C 1033487163</li>
-          <li>Colombia - Medellín</li>
-        </ul>
+      <h1>{nombre}</h1>
+      <h3>{cargo}</h3>
+      <p>{ciudad}</p>
+      <p>{contacto}</p>
     </header>
-);
+  );
 }
+
+
