@@ -1,7 +1,7 @@
-# 💼 Proyecto: Hoja de Vida con React (EV05)
+# 💼 Proyecto: Hoja de Vida con React
 
-Este proyecto corresponde a las evidencias **EV05 y EV06** del programa Tecnólogo en Análisis y Desarrollo de Software (SENA).  
-Incluye la creación de una *Hoja de Vida en React*, usando componentes y renderizado dinámico.
+Este proyecto es una Hoja de Vida (CV) desarrollada en **React con Vite**, como parte de las actividades del programa ADSO.  
+Incluye componentes reutilizables, renderizado dinámico, props, desestructuración, listas, estilos condicionales y organización modular del código.
 
 El objetivo es crear una **Hoja de Vida digital interactiva** compuesta por varios **componentes funcionales en React**, aplicando buenas prácticas de modularidad y diseño.
 
@@ -29,33 +29,56 @@ El proyecto fue desarrollado con **React + Vite** y cuenta con los siguientes co
 | `App.jsx` | Componente principal que integra todos los anteriores. |
 
 ---
-#### 📌 EV06 — Componentes Dinámicos en React
+#### 📌 EV07 —  Props y desestructuración con una hoja de vida dinámica
 
-En esta actividad se agregaron componentes dinámicos que utilizan:
+El CV está dividido en componentes independientes:
 
-- Renderizado de listas con `.map()`
-- Renderizado condicional
-- Arreglos de objetos para manejar datos
-- Estilos condicionales según el contenido
+### ✔ CabeceraCV  
+Recibe por **props**: nombre, cargo, ciudad, contacto.
 
-Los componentes agregados fueron:
+### ✔ Perfil  
+Recibe por **props** un resumen profesional.
 
-### 🔹 `Experiencia.jsx`
-- Contiene un arreglo con **10 experiencias laborales/proyectos**
-- Cada ítem incluye: cargo, empresa, año y descripción
-- Renderizado dinámico mediante `.map()`
+### ✔ Experiencia  
+Renderiza una **lista dinámica** de experiencias laborales usando `.map()`.
 
-### 🔹 `Educacion.jsx`
-- Arreglo con **10 cursos, talleres o estudios**
-- Se renderizan usando listas `<ul>` y `.map()`
+### ✔ Educación  
+Renderiza una lista de estudios usando `.map()` y props.
 
-### 🔹 `StackTecnologias.jsx`
-- Renderiza un “stack” de tecnologías aprendidas
-- Cada tecnología cambia de color según su nombre  
-  (Ej: React → azul, JavaScript → amarillo)
+### ✔ StackTecnologías  
+Renderizado condicional y dinámico de tecnologías con etiquetas de colores.
+
+Todos los datos se administran desde **App.jsx** usando constantes y se envían a los componentes mediante **props** con desestructuración.
+
+---
+##### 📚 Uso de Props y Desestructuración (EV07)
+
+Este proyecto implementa:
+
+- Envío de datos mediante **props** desde App.jsx
+- Desestructuración en cada componente:
+  ```jsx
+  function CabeceraCV({ nombre, cargo, ciudad, contacto }) { ... }
+  ```
+- Listas dinámicas usando `.map()`
+- Componentes totalmente reutilizables
+- Separación de responsabilidades y código limpio
+
+---
+
+###### 🏷️ Commits realizados
+
+✔ `refactor: extracción de datos personales en App.jsx`  
+✔ `feat: componente CabeceraCV ahora recibe props`  
+✔ `feat: desestructuración de props en CabeceraCV`  
+✔ `feat: componente Perfil dinámico con props`  
+✔ `feat: Experiencia mapeada desde arreglo en App.jsx`  
+✔ `feat: componente Educación con props y desestructuración`  
+✔ `docs: actualización del README con explicación del uso de props`
 
 
-##### 🖼️ Captura de pantalla del resultado
+
+###### 🖼️ Captura de pantalla del resultado
 
 > Vista previa del CV ejecutándose en el navegador:
 ![alt text](/Actividad_react_vite/src/componentes/imagenes/5.HV.png)
@@ -92,4 +115,12 @@ VITE v5.0  ready in 500 ms
 Copia o haz clic en el enlace (normalmente http://localhost:5173)
 para ver tu hoja de vida ejecutándose.
 
+---
 
+###### 🚀 Tecnologías utilizadas
+
+- React  
+- Vite  
+- JavaScript (ES6+)  
+- CSS  
+- Git + GitHub  
