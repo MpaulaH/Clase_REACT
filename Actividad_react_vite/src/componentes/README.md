@@ -81,9 +81,9 @@ Este proyecto implementa:
 ###### 🖼️ Captura de pantalla del resultado
 
 > Vista previa del CV ejecutándose en el navegador:
-![alt text](/Actividad_react_vite/src/componentes/imagenes/5.HV.png)
-![alt text](/Actividad_react_vite/src/componentes/imagenes/6.HV.png)
-![alt text](/Actividad_react_vite/src/componentes/imagenes/7.HV.png)
+![alt text](/Actividad_react_vite/src/componentes/imagenes/8.HV.png)
+![alt text](/Actividad_react_vite/src/componentes/imagenes/9.HV.png)
+![alt text](/Actividad_react_vite/src/componentes/imagenes/10.HV.png)
 
 ---
 
