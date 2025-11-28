@@ -97,19 +97,10 @@ Esto permite que solo el **estado** viva en App.jsx, tal como exige la actividad
 
 # 🖼️ Capturas de pantalla del proyecto
 
-### 📌 Vista del formulario para agregar tecnologías:
-*(Agrega aquí la imagen)*
-
-```md
-![Formulario Tecnologías](./ruta-de-tu-captura1.png)
-```
-
-### 📌 Vista del toggle de habilidades funcionando:
-*(Agrega aquí la imagen)*
-
-```md
-![Toggle Habilidades](./ruta-de-tu-captura2.png)
-```
+![alt text](/Actividad_react_vite/src/componentes/imagenes/11.HV.png)
+![alt text](/Actividad_react_vite/src/componentes/imagenes/12.HV.png)
+![alt text](/Actividad_react_vite/src/componentes/imagenes/13.HV.png)
+![alt text](/Actividad_react_vite/src/componentes/imagenes/14.HV.png)
 
 ---
 
