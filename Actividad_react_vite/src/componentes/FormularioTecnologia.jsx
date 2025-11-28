@@ -18,7 +18,7 @@ export default function FormularioTecnologia({ agregarTecnologia }) {
         value={nuevaTec}
         onChange={(e) => setNuevaTec(e.target.value)}
       />
-      <button type="submit">Agregar</button>
+      <button className="boton" type="submit">Agregar</button>
     </form>
   );
 }

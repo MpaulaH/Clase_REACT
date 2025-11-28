@@ -35,7 +35,8 @@ export default function App() {
         contacto={cvData.contacto}
       />
 
-      <About resumen={cvData.resumen} />
+      <About 
+      resumen={cvData.resumen} />
 
       <Skills estudios={cvData.estudios} />
 

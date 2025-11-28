@@ -13,8 +13,7 @@ export const cvData = {
   // --------------------------
   resumen: 
     "Desarrolladora Front-End con experiencia en React, JavaScript, diseño de interfaces y construcción de aplicaciones dinámicas. Enfocada en crear interfaces limpias, funcionales y accesibles, con habilidades en UI/UX y herramientas modernas del ecosistema web.",
-
-
+    
   // --------------------------
   // EXPERIENCIA (10 ítems)
   // --------------------------

@@ -1,8 +1,8 @@
 export default function ToggleHabilidades({ mostrar, onToggle }) {
   return (
-    <div style={{ margin: "20px 0" }}>
-      <button onClick={onToggle}>
-        {mostrar ? "Ocultar habilidades" : "Mostrar habilidades"}
+    <div>
+      <button className="boton" onClick={onToggle}>
+        {mostrar ? "Ocultar Stack" : "Mostrar Stack"}
       </button>
     </div>
   );
