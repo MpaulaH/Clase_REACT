@@ -1,22 +1,9 @@
-export default function StackTecnologias() {
-
-  const tecnologias = [
-    "JavaScript",
-    "React",
-    "Node.js",
-    "HTML",
-    "CSS",
-    "Vite",
-    "Git",
-    "GitHub"
-  ];
-
-  // Renderizado condicional: según la tecnología, cambia el color
+export default function StackTecnologias({ tecnologias }) {
   const getColor = (tech) => {
     if (tech === "React") return "lightblue";
     if (tech === "JavaScript") return "yellow";
     if (tech === "Node.js") return "lightgreen";
-    return "#ddd"; // gris por defecto
+    return "#ddd";
   };
 
   return (
